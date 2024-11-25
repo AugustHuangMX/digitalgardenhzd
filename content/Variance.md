@@ -1,11 +1,3 @@
-
-
-
-
----
-
-
-
 # Reference 
 
 [[Analysis of Variance]]
