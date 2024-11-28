@@ -1,6 +1,3 @@
----
-title: "ECON2001 Statistics II"
----
 
 [[Analysis of Variance]]
 
