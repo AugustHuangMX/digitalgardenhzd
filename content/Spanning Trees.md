@@ -10,4 +10,6 @@ We could find that the graph has a [[Circuit]] $v_{2}v_{1}v_{4}v_{2}$, so any re
 
 ![[截屏2024-11-28 11.55.50.png]]
 
+[[Kruskal Algorithm]]
+
 

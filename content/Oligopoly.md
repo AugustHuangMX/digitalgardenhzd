@@ -1,20 +1,20 @@
 [[Oligopoly]] stands for competition between a small number of firms who have market power, and possibly potential entrants, all of whom recognize their mutual interdependence.
 
 
-## 1. The Cournot Duopoly Model
+## 1. The [[Cournot]] Duopoly Model
 
 #### 1.1 Mathematical Derivation of Cournot Equilibrium
 
 Duopoly 代表着2 seller。
 
-**Cartel solution**: 代表着合作
+**[[Cartel]] solution**: 代表着合作
 简单理解：双方把彼此看做同一个公司，然后进行合作，所以产出是最大化，算出一个 $Q$ 之后除以 2 得出答案。
 
 **Cournot solution**：代表着竞争，会根据对方的实力算出一个 *reaction equation*. 两个方程的交点即是他们的 Cournot equilibrium.
 
 >挖坑待补充，当有n个公司的时候该怎么办呢？
 
-## 2. The Stackelberg Leadership Model
+## 2. The [[Stackelberg]] Leadership Model
 
 #### 2.1 The Stackelberg Equilibrium Outcome
 该模型建立在一个假设：
@@ -29,10 +29,10 @@ Duopoly 代表着2 seller。
 ## 3. Repeated Games
 #### 3.1 Infinitely Repeated Games
 
-|$(A\downarrow,B\rightarrow)$|up|down|
-|---|---|---|
-|up|4,4|6,3|
-|down|3,6|5,5|
+| $(A\downarrow,B\rightarrow)$ | up  | down |
+| ---------------------------- | --- | ---- |
+| up                           | 4,4 | 6,3  |
+| down                         | 3,6 | 5,5  |
 
 
 在这个打广告的 case 里，如果只是进行一次决策，那么他们会选择（4，4）也就是都打广告，但是事实上，什么都不做才是最好的选择。（5，5）
