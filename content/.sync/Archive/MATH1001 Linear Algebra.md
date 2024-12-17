@@ -9,6 +9,3 @@
 - 4.4.5 
 - 4.6
 
-
-[[General Vector Spaces]]
-
