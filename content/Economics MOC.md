@@ -8,7 +8,7 @@
 
 [[ECON2003 Intermediate Microeconomics II]]
 
-[[ECON2005 Macroeconomics MOC]]
+[[ECON2005 Intermediate Macroeconomics]]
 
 [[ECON3002 Econometrics MOC]]
 

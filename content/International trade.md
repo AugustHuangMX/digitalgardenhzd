@@ -20,7 +20,7 @@ Different developing countries they face different kinds of internal reasons (wh
 
 ---
 
-The above are the content taught in [[ECON2005 Macroeconomics MOC]], Below I will talk more about the content in the course [[International Trade]] in Bristol.
+The above are the content taught in [[ECON2005 Intermediate Macroeconomics]], Below I will talk more about the content in the course [[International Trade]] in Bristol.
 
 - [[Ricardian Trade Theory]]
 - [[Heckscher-Ohlin Model]]

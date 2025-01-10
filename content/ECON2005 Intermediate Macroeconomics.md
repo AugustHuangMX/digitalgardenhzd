@@ -1,6 +1,3 @@
----
-title: "ECON2005 Macroeconomics MOC"
----
 
 [[Economic Growth]]
 

@@ -1,3 +1,6 @@
+---
+title: "Consumption and Investment"
+---
 
 ### 我的想法
 
