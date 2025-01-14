@@ -235,22 +235,44 @@ Households maximize utility. $U(C) = ln C$
 > 2. If $lim_{C \to 0} ln C = - \infty$
 > 3. $\frac{\delta U}{\delta C} = \frac{{\delta ln C}}{delta C}=\frac{1}{C}$
 
-We care about the lifetime utility function.
+We care about the lifetime utility function, then it is obvious that we could derive the utility function:
 
+$U=\sum^T_{t=0}u_{t}=\sum^T_{t=0}ln C_{t}$
 
+People discount the future utility. We then introduce the **discount rate** $\rho$. (recall [[Game Theory]])
 
+$$
+U = U_{0}+\frac{U_{1}}{1+\rho}+\frac{U_{2}}{(1+\rho)^2}+\dots+ \frac{U_{T}}{(1+\rho)^T}=\sum^T_{t=0}{U_{t}}/(1+\rho)^t
+$$
+So the lifetime utility is:
 
+$$
+U= \sum^T_{t=0}\frac{{U_{t}}}{(1+\rho)^t}
+$$
 
+And we approximate $T$ by $\infty$
 
+$$
+U= \sum^\infty_{t=0}\frac{{U_{t}}}{(1+\rho)^t}
+$$
 
+This is a discrete-time model. However, time is a continuous variable, we want to convert the discrete-time utility function into a continuous-time utility function by replacing the summation sign with an integral sign.
 
+$$
+U = \int_{0}^\infty U_{t}dt \quad \text{(without discounting)}
+$$
 
+$$
+U = \int_{0}^\infty e ^{-\rho t}U_{t}dt \quad \text{(with discounting)}
+$$
 
+Thus the **households' objective** is 
 
+$$
+Max_{C_{t}}U= \sum^\infty_{t=0}\frac{{U_{t}}}{(1+\rho)^t}
+$$
 
-## Dynamic General Equilibrium with Microeconomic Foundation
-
-
+Without the *constraint*, the best way for us is to take $C_{t} \to \infty$ in every period. In reality, the households faces budget constraint 
 
 
 
