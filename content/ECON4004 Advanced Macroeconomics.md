@@ -222,6 +222,8 @@ $M \uparrow, \implies P\uparrow,w \uparrow, r \uparrow$ (Nominal variable)
 However, $M$ has no effect on the real variables. Thus we have monetary neutrality due to flexible prices.
 
 
+## The Neoclassical Growth Model
+
 Now we want to define the supply side. We pick $Y$ as the numeraire.($P=1$)（计量标准）
 
 Households supply labor inelastically: $L^s = \bar L$
@@ -274,9 +276,64 @@ $$
 
 Without the *constraint*, the best way for us is to take $C_{t} \to \infty$ in every period. In reality, the households faces budget constraint 
 
+### Hamiltonian 
 
 
+Multiplier $\lambda_{t}$ is for the asset-accumulation equation.
 
+$$
+\text{Income}=\text{Consumption}+\text{Saving}
+$$
 
+The word "Saving" here is flow, not stock (saving in your bank).
 
+$$
+\text{Income}=WL+RK
+$$
+
+For consumers, and we denote *consumption* by $C$, and *saving* by $I$(Capital Investment), because we assume that capital is the only productive asset in the economy. Investment today becomes capital in the future.
+
+So the question becomes: how we could balance the investment in the certain period? Then we introduce the **hamiltonian**:
+
+We define: $\dot K = \frac{\delta K}{\delta t} = \text{Capital Accumulation}$
+
+So it's trivial that $\dot K = RK+WL-C$ 
+
+Recall that our objective is the Households' optimization problem
+
+$$
+Max_{C_{t}}U= \sum^\infty_{t=0}\frac{{U_{t}}}{(1+\rho)^t}
+$$
+
+We will use a mathematical tool, known as the **Hamiltonian**, to solve this *dynamic optimization problem*.
+
+In general, we want to compute that:
+
+$$
+Max_{C_{t}}U= \sum^\infty_{t=0}\frac{{U_{t}}}{(1+\rho)^t} \text{subject to } \dot K = I = WL+RK -C
+$$
+
+$$
+H_{t} = ln C_{t} + \lambda_{t}(R_{t}K_{t}+W_{t}L-C_{t})
+$$
+
+Then we find the first-order condition:
+
+$$
+\frac{\delta H}{\delta C} = \frac{1}{C} - \lambda = 0 \implies \lambda = \frac{1}{C} = MU_{0} +C
+$$
+
+$$
+\frac{\delta H}{\delta K_{t}} = \lambda_{t} R_{t} = \rho \lambda - \dot \lambda \implies \frac{-\dot \lambda}{\lambda} = R -\rho
+$$
+
+- $\lambda$ is a multiplier (or a costate variable)
+- $K$ is a predetermined variable (or a state variable)
+- $C$ is a jump variable
+
+Then we try to manipulate FOCs:
+
+$$
+\lambda = \frac{1}{C} = C^{-1} \implies ln \lambda = ln C^{-1} = - ln C
+$$
 
