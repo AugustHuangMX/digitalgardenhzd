@@ -19,7 +19,7 @@ If the rank sum is similar, the test statistic will be small.
 The smaller the H, the 
 ## Sampling distribution
 The distribution of the test statistic can be derived in the same way in [[Wilcoxon Signed Rank Sum Test]] 
-When the sample size small (smaller than 5), we could just easily list all the content. But when the sample size is larger than 5, the test statistic $H$ is approximately like the one in [[Chi-squared Distribution]]
+When the sample size small (smaller than 5), we could just easily list all the content. But when the sample size is larger than 5, the test statistic $H$ is approximately like the one in [[Chi-squared distribution]]
 *The rejection region*
 ![[截屏2023-03-27 16.21.36.png]]
 ## What is the difference between [[Wilcoxon Signed Rank Sum Test]]?

@@ -1,19 +1,14 @@
 [[Time-Series Components]]
 
 This is typically compared with the [[Moving Averages]], because the moving average has some huge disadvantages that it will lose the first and last sets of time periods. If the time-series only has a few observations, it could lose some important information (for example, only 5 years?)
-
 The second reason is that the [[Moving Averages]] method will ignore a lot of *previous* observation / information.
-
 But, we can use the [[Exponential Smoothing]] method to solve this problem!
 In conclusion, we have
-
 $S_t=wy_t+(1-w)S_{t-1}\ for\ t\geq2$
-
 where
 	$S_t$ is Exponentially smoothed time series at time period $t$
 	$y_t$ is the time series at time period t
 	$w$ is the ==smoothing constant==
-
 You can understand the $S_t$ as a $y'_t$ ,which means it is after a smoothing procedure.
 And, if we start from $t=1$, we could get
 $S_t=wy_t+(1-w)y_{t-1}+w(1-w)^2y_{t-2}+...+(1-w)^{t-1}$

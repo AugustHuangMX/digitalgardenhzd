@@ -24,6 +24,8 @@ You used the [[Solow Model]] to study economic growth. You used [[IS-LM model]] 
 
 [[Hamiltonian]]: Only need to apply, no need to prove, just like [[Largrangian Theory]]
 
+> 4. Hamiltonian函数的经济含义：1. 代表了经济系统在某一时点的"总价值" 2. 包含了当期收益和未来价值的变化 3. $\lambda$表示状态变量的边际价值
+
 In short, we will develop a modern macroeconomic model to study both **growth** and **fluctuations**.
 
 > It is also the purpose to study this course.
@@ -293,6 +295,8 @@ $$
 
 For consumers, and we denote *consumption* by $C$, and *saving* by $I$(Capital Investment), because we assume that capital is the only productive asset in the economy. Investment today becomes capital in the future.
 
+> 记住大 $C$ 一般代表的就是 consumption
+
 So the question becomes: how we could balance the investment in the certain period? Then we introduce the **hamiltonian**:
 
 We define: $\dot K = \frac{\delta K}{\delta t} = \text{Capital Accumulation}$
@@ -328,7 +332,7 @@ $$
 $$
 
 - $\lambda$ is a multiplier (or a costate variable)
-- $K$ is a predetermined variable (or a state variable)
+- $K$ is a **predetermined variable** (or a state variable)
 - $C$ is a jump variable
 
 Then we try to manipulate FOCs:
@@ -336,4 +340,119 @@ Then we try to manipulate FOCs:
 $$
 \lambda = \frac{1}{C} = C^{-1} \implies ln \lambda = ln C^{-1} = - ln C
 $$
+$$
+\frac {\delta ln \lambda}{\delta t} = \frac{1}{\lambda} \frac{\delta \lambda}{\delta t} = \frac{\dot \lambda}{\lambda} = \text {growth rate of} \lambda
+$$
+
+Similarly,
+
+$$
+\frac {\delta - ln C}{\delta t} = \frac{\dot C}{C}
+$$
+
+That means: 
+
+$$
+\frac{\dot \lambda}{\lambda} = \frac{ - \dot C}{C}
+$$
+
+Recall the equation:
+
+$$
+\frac{\delta H}{\delta K_{t}} = \lambda_{t} R_{t} = \rho \lambda - \dot \lambda \implies \frac{-\dot \lambda}{\lambda} = R -\rho
+$$
+
+We get:
+
+$$
+\frac{ - \dot \lambda}{\lambda} = \frac{ \dot C}{C} = R -\rho
+$$
+This is the optimal path of consumption chosen by the household.
+
+We could also write it as: $\frac{ \dot C_{t}}{C_{t}} = R_{t} -\rho$
+
+This is the optimal consumption growth rate.
+
+- If $R_{t} > \rho$, then $\frac{\dot C}{C}>0$
+
+Intuitively speaking, if the return to capital ($R$) is high, then the optimal behavior is to save more and consume less today. So, the household's consumption is  rising overtime. 
+
+> We save for future consumption
+
+### The long-run capital supply curve
+
+Steady state (a long-run equilibrium)
+
+All variables remain constant: 
+
+$$
+\dot C = 0 \implies \frac{ \dot C}{C} = R -\rho \implies R = \rho
+$$
+So that in the long-run, the capital supply is a horizontal line, $R = \rho$.
+
+- $K^s_ {{LR}} : R = \rho$, it will be a horizontal line (perfectly elastic)
+- $K^d: R = MPK =\alpha A\left( \frac{L}{K} \right)^{1-\alpha}$
+
+> In the short-run, the supply would be perfectly inelastic, because $K$ is predetermined variable
+
+![[截屏 2025-02-07 10.12.17.jpeg|400]]
+
+What happens to output?
+
+$Y= AK^\alpha L^{1-\alpha}$
+
+$Y$ increase for 2 reasons.
+
+Exercise: Derive the steady-state level of capital. Show that $K^{ * }(A(+))$
+
+Hint: Combine $K^d$ and $K^S$
+
+Comparative static: $A \uparrow$.
+
+In the SR, $A \uparrow \implies R \uparrow$ and $K$ remains at $K ^ { * }$ at this moment. Overtime, $K$ gradually increases, and  $R$ gradually decreases.
+
+In the LR, $K \to K^ { * * }$ and $R$ return to $\rho$.
+
+In the SR, $R > \rho \implies \frac{ \dot C}{C} > 0$ 
+
+The household reduces current consumption and increases saving, so that capital investment goes up.
+
+---
+
+### The time path
+
+![[截屏2025-02-07 10.27.22.png|600]]
+
+> Note that the shape of $K$ is concavely decrease.
+
+In the labor market, recall that $L^d: w=MPL = (1-\alpha)A\left( \frac{K}{L} \right)^\alpha$
+
+![[截屏 2025-02-07 10.40.38.jpeg|400]]
+
+> Real Business Cycles model, Kyland and Prescott won a Nobel prize for developing the RBC model
+
+#### Exercise
+$max_{C_{t}} U=\sum_{t=0} \frac{lnC_{t}}{(1+\rho)^t}$ s.t. $\dot K = I -\delta K = WL+RK -C -\delta K$
+
+> $\delta$ is the capital depreciation rate.
+
+Use [[Hamiltonian]] to solve it:
+
+$$
+H = lnC + \lambda \dot K
+$$
+
+- $\frac{\delta H}{\delta C}=\frac{1}{C} -\lambda = 0 \implies \lambda = \frac{1}{C} = MU_{0} + C$
+- $\frac{\delta H}{\delta K}=\lambda(R-\delta) = \rho \lambda - \dot \lambda \implies -\frac{\dot\lambda}{\lambda}=R-\delta -\rho$
+
+IMPORTANT: We should take the derivative for $\lambda$ and $\frac{1}{C}$, and then we could get $\frac{\dot C}{C}=R-\delta -\rho$
+
+### Optimal Consumption Path
+
+
+If the net return to capital is high relative to the household subjective discount rate (how patient it is), then the household wants to invest more in capital. As a result, consumption is lower today and rising overtime.
+
+[[Fiscal Policy]]
+
+
 
