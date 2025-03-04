@@ -8,7 +8,7 @@ $Cov(X,u)=0$
 
 $E(u|X)=0$, $u$ has 0 expectation
 
-- Spherical Disturbance ( Homoscedasticity ) 同方差假设
+- Spherical Disturbance ( [[Homoscedasticity]] ) 同方差假设
 
 $Var(u|X)=\sigma ^2I$
 

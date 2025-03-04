@@ -1,5 +1,4 @@
 [[Non-parameter Statistic]]
-#fleeting #Statistics 
 ## Application
 1. The problem objective is to compare 2 or more populations
 2. The data are either ordinal or interval, but not normal

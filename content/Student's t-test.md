@@ -1,16 +1,3 @@
----
-title: "Student's t-test"
----
+Suppose we want to test the hypothesis that $\beta = \beta_{0}$
 
-#Statistics 
-
-# Tell It by Myself...
-
-
-
----
-
-
-
-# Reference 
 
