@@ -1,4 +1,4 @@
-
+#output #permanent #Statistics 
 **E.g 16.1** Annual Bonus and Years of Experience
 ![[卢曼笔记盒/附件/截屏2023-02-17 15.05.34.png]]
 Just calculate the [[Covariance]] and the variance of x.

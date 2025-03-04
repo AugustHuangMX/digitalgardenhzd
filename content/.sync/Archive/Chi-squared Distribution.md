@@ -17,5 +17,5 @@ The shape of the [[Chi-squared Distribution]] is highly dependent on the degree 
 
 Other famous distributions: 
 
-- [[Student's t-test]]
+- [[Student's t-test Distribution]]
 - 

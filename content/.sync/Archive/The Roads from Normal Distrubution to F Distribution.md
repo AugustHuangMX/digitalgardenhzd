@@ -3,7 +3,7 @@ Here is a pathway we could connect:
 - [[Normal Distribution]]
 - [[Chi-squared Distribution]]
 - [[F-Distribution]]
-- [[Student's t-test]]
+- [[Student's t-test Distribution]]
 
 1. If $Z_{i}, i=1,2,3,\dots k$ are independently distributed,
    

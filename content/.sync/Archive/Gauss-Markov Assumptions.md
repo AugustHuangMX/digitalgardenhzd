@@ -1,3 +1,5 @@
+# Tell It by Myself...
+
 It is also called *Crucial Assumptions*
 
 $Cov(X,u)=0$

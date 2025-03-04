@@ -1,11 +1,9 @@
-#Econ/Econometrics  #Statistics 
+#permanent #input #Statistics 
 回归分析（regression analysis）是通过其他变量来预测某一变量的值
 
-# Basic Model
+# Estimating the Coefficients
 
- $$
- y=\beta_0+\beta_1x+\epsilon
-$$
+一阶线性模型 $y=\beta_0+\beta_1x+\epsilon$
 
 其中 $\epsilon$ 是一个误差变量，也是新引用出来的 $\widehat{y}=b_0+b_1x$
 
@@ -24,11 +22,8 @@ Inside,
 
 $s_{xy}=\frac{\sum^n_{i=1}(x_i-\overline{x})(y_i-\overline{y})}{n-1}$  This is [[Covariance]]
 
-$s_{x^2}=\frac{\sum^n_{i=1}(x_i-\overline{x})^2}{n-1}$  This is [[Variance]]
+$s_{x^2}=\frac{\sum^n_{i=1}(x_i-\overline{x})^2}{n-1}$  This is variance ^6434 ad
 
 We seldom calculate those stuff by hand. It's too hard.
 
----
-
-In the course [[ECON3003 Econometric II]] taught by professor [Chen Jia](https://fss.um.edu.mo/chen-jia-%E9%99%B3%E4%BD%B3/), we first dive into a new notation, which is [[Simple Linear Regression in Matrix Notation]], combined with some background knowledge from [[Linear Algebra MOC]].
-
+Lets try the exercise for this [[Exercise for simple linear regression 1]]

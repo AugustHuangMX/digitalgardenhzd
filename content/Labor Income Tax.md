@@ -1,3 +1,5 @@
+#Economics/Macro 
+
 
 $$
 l^s = w = \frac{1}{1-\tau_{w}} \frac{\beta c}{L-l} \implies L - \frac{\beta c}{(1-\tau_{w})w} = l^s(c,w,\tau_{w})
@@ -71,7 +73,7 @@ $$
 
 eg: If $\alpha=0.5$, then  $\frac{\delta \tau_{w}}{\delta \gamma}=2$
 
-In summary, the negative effect would dominate the positive effect.
+In summary, the negative effect ([[Substitution Effect]]) would dominate the positive effect ([[Income Effect]]).
 
 If the government increases $\gamma$ by $1\%$, then it has to increase $\tau_{w}$ by $2\%$
 
@@ -88,4 +90,22 @@ We get:
 $$
 l^{ * } = \frac{L}{1+ \beta  \frac{1}{1 -  \frac{\alpha}{1-\gamma}}} \implies l^{ * }(\gamma_{-})
 $$
+
+## Policy Implications 
+
+1. Recall that when $T>0$, an increase in the government spending ratio $\gamma$ (holding constant $\tau_{w}$) has an expansionary effect on the macroeconomy.
+2. When $T=0$, a simultaneous increase in $\gamma$ and $\tau_{w}$ causes a contractionary effect on the macroeconomy.
+
+Exercise:
+
+Derive $l^*$ for the case of $\delta>0$, Show that $l^*(\tau_{w-},\gamma_{+})$
+
+Answer:
+
+$$
+l^{ *} = \frac{L}{1+ \frac{\beta}{(1-\alpha)(1-\tau_{w})}\left(1-\gamma -  \frac{\alpha \delta}{\rho +\delta} \right)} 
+$$
+
+When $\tau_{w}$ and $\gamma$ increase together, $l^*$ decreases (unless $\alpha \to 0$ or $\rho \to 0$)
+
 

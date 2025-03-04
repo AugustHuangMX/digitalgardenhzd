@@ -34,12 +34,9 @@ $\hat y=X\hat\beta+\hat u$
 
 ---
 
-Some nice properties of OLS estimator: 
 
-1. Efficiency
-2. MSE
-3. [[Consistency]]
-4. 
+
+# Reference 
 
 
 
