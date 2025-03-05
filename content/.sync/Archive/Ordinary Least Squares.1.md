@@ -10,7 +10,7 @@ It is strongly connected to the [Simple Linear Regression](Simple%20Linear%20Reg
 
 $y=\beta_0+\beta_1x+\epsilon$,       $i=1,2,...n$
 
-[[Gauss-Markov Theorem]]
+[[Gauss-Markov Assumptions]]
 
 ---
 

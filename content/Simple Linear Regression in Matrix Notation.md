@@ -67,9 +67,49 @@ $$
 
 Take the FOC here:
 
+If you are not familiar with how to take derivatives under [[Matrix]] environment, see attached: [矩阵求导](https://zhuanlan.zhihu.com/p/273729929). In here, we conclude some useful results of differentiation of vectors:
+
 $$
-\mathbf{\frac{\delta S(b)}{\delta b} =} 2\mathbf{X'Xb} - 2\mathbf{X'y = 0}
+\mathbf{\frac{\delta(x'b)}{\delta b}=\frac{\delta(b' x)}{\delta b} = x}
+$$
+$$
+\mathbf{\frac{\delta(b' A b)}{\delta b}=(A+A')b}
+$$
+$$
+\mathbf{\frac{\delta^2(b' A b)}{\delta b \delta b'}=(A+A')}
 $$
 
-If you are not familiar with how to take derivatives under [[Matrix]] environment, see attached: [矩阵求导](https://zhuanlan.zhihu.com/p/273729929)
+So it is clear that
 
+$$
+\frac{\mathbf{\delta(y'y)}}{\delta b} = 0
+$$
+$$
+\mathbf{\frac{\delta(b'X'y)}{\delta b}= X'y}
+$$
+
+$$
+\mathbf{\frac{\delta b'X'Xb}{\delta b}=2X'Xb}
+$$
+
+Thus,
+
+$$\mathbf{\frac{\delta S(b)}{\delta b} =} 2\mathbf{X'Xb} - 2\mathbf{X'y = 0}
+$$
+
+To obtain the correct value of $\mathbf{b}$, we continue calculating:
+
+$$
+\mathbf{X'Xb - X'y = 0}
+$$
+$$
+\mathbf{(X'X)^{-1}[X'Xb - X'y] = 0}
+$$
+$$
+\mathbf{b - (X'X)^{-1}X'y = 0}
+$$
+$$
+\mathbf{b = (X'X)^{-1}X'y}
+$$
+
+This is what we want to know.

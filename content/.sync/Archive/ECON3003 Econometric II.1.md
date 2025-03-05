@@ -8,7 +8,7 @@ So we search for $P(Z \leq -3)$
 
 
 
-[[Gauss-Markov Theorem]]
+[[Gauss-Markov Assumptions]]
 
 
 
