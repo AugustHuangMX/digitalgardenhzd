@@ -71,7 +71,7 @@ $$
 \implies \frac{\delta \tau_{w}}{\delta \gamma}=\frac{1}{1-\alpha}>1
 $$
 
-Eg: If $\alpha=0.5$, then  $\frac{\delta \tau_{w}}{\delta \gamma}=2$
+eg: If $\alpha=0.5$, then  $\frac{\delta \tau_{w}}{\delta \gamma}=2$
 
 In summary, the negative effect ([[Substitution Effect]]) would dominate the positive effect ([[Income Effect]]).
 

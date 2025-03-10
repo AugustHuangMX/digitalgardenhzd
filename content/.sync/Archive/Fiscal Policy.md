@@ -3,6 +3,6 @@
 
 [[Labor Income Tax]]
 
-[[Capital Income Tax]]
+
 
 
