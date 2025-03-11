@@ -110,3 +110,16 @@ The overall effect of $\tau_{r}$ on $l^*$ depends on $\frac{C}{Y}$
 $$
 
 
+What happens when $\tau_{r}$ and $\gamma$ change simultaneously?
+
+$$
+\begin{align}
+G  & = T + \tau_{r}rK  \\
+\gamma Y &  = \tau_{r}rK  \\
+\gamma &  = \tau_{r} \frac{rK}{Y} = \alpha \tau_{r}
+\end{align}
+$$
+- If $\delta = 0$, $l^* = \frac{L}{1+\frac{\beta}{1-\alpha}(1-\gamma)}= \frac{L}{1+\frac{\beta}{1-\alpha}(1-\alpha \tau_{r})}=l^*(\underbrace{ \tau_{r} }_{ + })$
+- If $\delta> 0$, $l^* = \frac{L}{1+\frac{\beta}{1-\alpha}[1-\gamma-\frac{\delta\alpha(1-\tau_{r})}{\delta+\rho}]}= \frac{L}{1+\frac{\beta}{1-\alpha}[1-\alpha \tau_{r}-\frac{\delta\alpha(1-\tau_{r})}{\delta+\rho}]}=l^*(\underbrace{ \tau_{r} }_{ + })$
+
+In both cases, $l^*$ is increasing in $\tau_{r}$, when $\gamma$ and $\tau_{r}$ change simultaneously.
