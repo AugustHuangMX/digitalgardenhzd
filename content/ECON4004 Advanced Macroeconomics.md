@@ -454,4 +454,6 @@ If the net return to capital is high relative to the household subjective discou
 
 [[Fiscal Policy]]
 
+> The Midterm Exam would cover from Ch1-Ch7
+
 
